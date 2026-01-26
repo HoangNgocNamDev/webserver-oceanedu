@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: oe-exam-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/ssl:/etc/nginx/ssl:ro
+    networks:
+      - oe-exam-network
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: oe-exam-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ocean_edu_user
+      POSTGRES_PASSWORD: ocean_edu_password
+      POSTGRES_DB: ocean_edu_db
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - oe-exam-network
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  oe-exam-network:
+    driver: bridge
+
