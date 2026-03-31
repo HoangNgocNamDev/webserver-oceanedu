@@ -1,0 +1,51 @@
+{
+    "id": "8c55eae8-5001-4451-a624-bba07a2ff9b4",
+    "parts": [
+        {
+            "id": 1,
+            "name": "Part 1",
+            "skill": "SPEAKING",
+            "points": 3,
+            "isGroup": false,
+            "category": "SPEAKING",
+            "endIndex": 2,
+            "startIndex": 0,
+            "instructions": "Read the passage aloud clearly and naturally.",
+            "questionType": "READ_DISPLAYED_CONTENT",
+            "questionCount": 3
+        },
+        {
+            "id": 2,
+            "name": "Part 2",
+            "skill": "SPEAKING",
+            "points": 3,
+            "isGroup": false,
+            "category": "SPEAKING",
+            "endIndex": 5,
+            "startIndex": 3,
+            "instructions": "Describe what you see in the picture.",
+            "questionType": "SPEAKING_DESCRIBE_IMAGE",
+            "questionCount": 3
+        },
+        {
+            "id": 3,
+            "name": "Part 3",
+            "skill": "SPEAKING",
+            "points": 5,
+            "isGroup": false,
+            "category": "SPEAKING",
+            "endIndex": 9,
+            "startIndex": 6,
+            "instructions": "Listen to the question and answer it freely.",
+            "questionType": "SPONTANEOUS_QA",
+            "questionCount": 4
+        }
+    ],
+    "title": "English Primary and Junior Speaking Test",
+    "subTitle": "ENGLISH_PRIMARY_AND_JUNIOR_SPEAKING_TEST",
+    "examLevel": "A2",
+    "totalParts": 3,
+    "description": "Speaking assessment for primary and junior levels: read aloud, describe image, and spontaneous Q&A.",
+    "examLevelId": "ff39888c-d2fd-4693-aa4b-e15b64ef0506",
+    "totalQuestions": 10
+}
