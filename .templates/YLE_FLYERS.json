@@ -1,0 +1,253 @@
+[
+  {
+    "id": 1,
+    "name": "Part 1",
+    "skill": "LISTENING",
+    "points": 5,
+    "isGroup": false,
+    "audioUrl": "",
+    "category": "LISTENING",
+    "endIndex": 0,
+    "startIndex": 0,
+    "instructions": "Listen and draw lines.",
+    "questionType": "IMAGE_OBJECT_MATCHING",
+    "questionCount": 1
+  },
+  {
+    "id": 2,
+    "name": "Part 2",
+    "skill": "LISTENING",
+    "groups": [
+      {
+        "number": 1,
+        "questionCount": 6
+      }
+    ],
+    "points": 5,
+    "isGroup": true,
+    "audioUrl": "",
+    "category": "LISTENING",
+    "endIndex": 6,
+    "viewMode": "NOTEPAD_FORM",
+    "startIndex": 1,
+    "groupConfig": [
+      "title",
+      "imageUrl"
+    ],
+    "instructions": "Listen and write.",
+    "questionType": "ANSWER_THE_QUESTION",
+    "questionCount": 6,
+    "hasSuggestedAnswers": false
+  },
+  {
+    "id": 3,
+    "name": "Part 3",
+    "skill": "LISTENING",
+    "groups": [
+      {
+        "number": 1,
+        "questionCount": 6
+      }
+    ],
+    "points": 5,
+    "isGroup": true,
+    "audioUrl": "",
+    "category": "LISTENING",
+    "endIndex": 12,
+    "startIndex": 7,
+    "groupConfig": [
+      "answer",
+      "imageUrl"
+    ],
+    "instructions": "Listen and write a letter in each box. There is one example.",
+    "questionType": "MATCH_BY_WRITING_ANSWER",
+    "questionCount": 6
+  },
+  {
+    "id": 4,
+    "name": "Part 4",
+    "skill": "LISTENING",
+    "points": 5,
+    "isGroup": false,
+    "audioUrl": "",
+    "category": "LISTENING",
+    "endIndex": 18,
+    "optionMode": "IMAGE",
+    "startIndex": 13,
+    "optionCount": 3,
+    "instructions": "Listen and tick (✓) the box.",
+    "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+    "questionCount": 6,
+    "questionConfig": [
+      "question",
+      "options"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Part 5",
+    "skill": "LISTENING",
+    "points": 5,
+    "isGroup": false,
+    "audioUrl": "",
+    "category": "LISTENING",
+    "endIndex": 19,
+    "startIndex": 19,
+    "instructions": "Listen and colour and write.",
+    "questionType": "READ_AND_COLOR_OBJECTS",
+    "questionCount": 1
+  },
+  {
+    "id": 6,
+    "name": "Part 1",
+    "skill": "READING",
+    "groups": [
+      {
+        "number": 1,
+        "questionCount": 6
+      }
+    ],
+    "points": 5,
+    "isGroup": true,
+    "category": "READING_AND_WRITING",
+    "endIndex": 25,
+    "startIndex": 20,
+    "groupConfig": [
+      "answer"
+    ],
+    "instructions": "Look and read. Choose the correct words and write them on the lines.",
+    "questionType": "MATCH_BY_WRITING_ANSWER",
+    "questionCount": 6,
+    "questionConfig": [
+      "question",
+      "answer"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Part 2",
+    "skill": "READING",
+    "groups": [
+      {
+        "number": 1,
+        "questionCount": 6
+      }
+    ],
+    "points": 5,
+    "isGroup": true,
+    "category": "READING_AND_WRITING",
+    "endIndex": 31,
+    "viewMode": "CONVERSATION",
+    "startIndex": 26,
+    "groupConfig": [
+      "answer",
+      "content",
+      "groupImageUrl"
+    ],
+    "optionCount": 8,
+    "instructions": "Read the conversation and choose the best answer. Write a letter (A–H) for each answer.",
+    "questionType": "MATCH_BY_WRITING_ANSWER",
+    "questionCount": 6,
+    "questionConfig": [
+      "question",
+      "answer"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Part 3",
+    "skill": "READING",
+    "points": 6,
+    "category": "READING_AND_WRITING",
+    "endIndex": 33,
+    "sections": [
+      {
+        "name": "Read the story. Choose a word from the box. Write the correct word next to numbers {from}–{to}.",
+        "isGroup": false,
+        "endIndex": 32,
+        "viewMode": "WITH_WORD_BANK",
+        "startIndex": 32,
+        "questionType": "WORD_FILL_PARAGRAPH",
+        "questionCount": 1
+      },
+      {
+        "name": "Choose the best name for the story",
+        "isGroup": false,
+        "endIndex": 33,
+        "optionMode": "TEXT",
+        "startIndex": 33,
+        "optionCount": 3,
+        "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+        "questionCount": 1,
+        "questionConfig": [
+          "question",
+          "options"
+        ]
+      }
+    ],
+    "startIndex": 32,
+    "instructions": "Read the story. Choose a word from the box. Write the correct word next to numbers {from}–{to}.",
+    "questionCount": 2
+  },
+  {
+    "id": 9,
+    "name": "Part 4",
+    "skill": "READING",
+    "points": 6,
+    "isGroup": false,
+    "category": "READING_AND_WRITING",
+    "endIndex": 34,
+    "viewMode": "WITH_OPTIONS",
+    "optionMode": "TEXT",
+    "startIndex": 34,
+    "optionCount": 3,
+    "instructions": "Read the text. Choose the right words and write them on the lines. There is one example.",
+    "questionType": "WORD_FILL_PARAGRAPH",
+    "questionCount": 1
+  },
+  {
+    "id": 10,
+    "name": "Part 5",
+    "skill": "READING",
+    "groups": [
+      {
+        "number": 1,
+        "questionCount": 9
+      }
+    ],
+    "points": 7,
+    "isGroup": true,
+    "category": "READING_AND_WRITING",
+    "endIndex": 43,
+    "startIndex": 35,
+    "instructions": "Look at the pictures and read the story. Write some words to complete the sentences about the story. You can use 1, 2 or 3 words.",
+    "questionType": "FILL_IN_BLANK",
+    "questionCount": 9
+  },
+  {
+    "id": 11,
+    "name": "Part 6",
+    "skill": "READING",
+    "points": 5,
+    "isGroup": false,
+    "category": "READING_AND_WRITING",
+    "endIndex": 44,
+    "viewMode": "DEFAULT",
+    "optionMode": "TEXT",
+    "startIndex": 44,
+    "optionCount": 3,
+    "instructions": "Read the diary and write the missing words. Write one word on each line.",
+    "questionType": "WORD_FILL_STRUCTURED_FORM",
+    "questionCount": 1
+  },
+  {
+    "id": 12,
+    "name": "Part 7",
+    "skill": "WRITING",
+    "category": "READING_AND_WRITING",
+    "endIndex": 45,
+    "startIndex": 45,
+    "questionType": "WRITE_A_SHORT_LETTER",
+    "questionCount": 1
+  }
+]

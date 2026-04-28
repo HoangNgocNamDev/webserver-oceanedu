@@ -1,0 +1,72 @@
+[
+    {
+        "id": "part-1",
+        "name": "Part 1: Choose the correct answer.",
+        "skill": "READING",
+        "isGroup": false,
+        "endIndex": 9,
+        "startIndex": 0,
+        "description": "Circle the best letter (A, B, C, or D) to complete the sentence or answer the question.",
+        "optionCount": 4,
+        "instructions": "Circle the best letter (A, B, C, or D) to complete the sentence or answer the question.",
+        "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+        "questionCount": 10
+    },
+    {
+        "id": "part-2",
+        "name": "Part 2: Complete the sentence.",
+        "skill": "READING",
+        "isGroup": false,
+        "endIndex": 19,
+        "startIndex": 10,
+        "description": "Write am, is, or are on the line to complete the sentence.",
+        "optionCount": null,
+        "instructions": "Write am, is, or are on the line to complete the sentence.",
+        "questionType": "FILL_IN_BLANK",
+        "questionCount": 10
+    },
+    {
+        "id": "part-3",
+        "name": "Part 3: Choose the correct response.",
+        "skill": "READING",
+        "isGroup": false,
+        "endIndex": 29,
+        "startIndex": 20,
+        "description": "Choose the best response (A, B, C, or D) for each question.",
+        "optionCount": 4,
+        "instructions": "Choose the best response (A, B, C, or D) for each question.",
+        "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+        "questionCount": 10
+    },
+    {
+        "id": "part-4",
+        "name": "Part 4: Reading.",
+        "skill": "READING",
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 10
+            }
+        ],
+        "isGroup": true,
+        "endIndex": 39,
+        "startIndex": 30,
+        "description": "Read the short passage and answer the questions below.",
+        "optionCount": 4,
+        "instructions": "Read the short passage and answer the questions below.",
+        "questionType": "READ_PASSAGE_AND_ANSWER_QUESTIONS",
+        "questionCount": 10
+    },
+    {
+        "id": "part-5",
+        "name": "Part 5: Writing.",
+        "skill": "WRITING",
+        "endIndex": 40,
+        "startIndex": 40,
+        "description": "You are having a birthday party. Write a short letter to your friend, Minh, to invite him. Tell him about the party.",
+        "optionCount": null,
+        "instructions": "You are having a birthday party. Write a short letter to your friend, Minh, to invite him. Tell him about the party.",
+        "questionType": "WRITE_A_SHORT_LETTER",
+        "questionCount": 1
+    }
+]

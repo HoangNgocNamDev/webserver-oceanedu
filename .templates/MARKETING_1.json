@@ -1,0 +1,92 @@
+[
+    {
+        "id": "part-1",
+        "name": "Part 1: Write the missing letters.",
+        "skill": "READING",
+        "points": 0,
+        "isGroup": false,
+        "endIndex": 0,
+        "startIndex": 0,
+        "description": "Write the missing letters in the grid.",
+        "optionCount": null,
+        "instructions": "Write the missing letters in the grid.",
+        "questionType": "FILL_MISSING_WORDS_IN_GRID",
+        "questionCount": 1
+    },
+    {
+        "id": "part-2",
+        "name": "Part 2: Look, read and write.",
+        "skill": "READING",
+        "points": 0,
+        "isGroup": false,
+        "endIndex": 5,
+        "startIndex": 1,
+        "description": "Look at the picture, read the question and choose the correct answer.",
+        "optionCount": 3,
+        "instructions": "Look at the picture, read the question and choose the correct answer.",
+        "questionType": "LOOK_PICTURE_FILL_BLANK_CHOOSE_ANSWER",
+        "questionCount": 5
+    },
+    {
+        "id": "part-3",
+        "name": "Part 3. Look and choose.",
+        "skill": "READING",
+        "points": 0,
+        "isGroup": false,
+        "endIndex": 10,
+        "startIndex": 6,
+        "description": "Look at the picture, read the question and choose the correct answer.",
+        "optionCount": 2,
+        "instructions": "Look at the picture, read the question and choose the correct answer.",
+        "questionType": "LOOK_PICTURE_CHOOSE_CORRECT_ANSWER",
+        "questionCount": 5
+    },
+    {
+        "id": "part-4",
+        "name": "Part 4: Look and write.",
+        "skill": "READING",
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 5
+            }
+        ],
+        "points": 0,
+        "isGroup": true,
+        "endIndex": 15,
+        "startIndex": 11,
+        "description": "Look at the picture and choose the correct word from the box.",
+        "optionCount": null,
+        "instructions": "Look at the picture and choose the correct word from the box.",
+        "questionType": "LOOK_PICTURE_FILL_WORD_HINT",
+        "questionCount": 5
+    },
+    {
+        "id": "part-5",
+        "name": "Part 5. Look and write.",
+        "skill": "READING",
+        "points": 0,
+        "isGroup": false,
+        "endIndex": 16,
+        "startIndex": 16,
+        "description": "Look at the picture and write the correct word.",
+        "optionCount": null,
+        "instructions": "Look at the picture and write the correct word.",
+        "questionType": "LABEL_THE_PICTURE",
+        "questionCount": 1
+    },
+    {
+        "id": "part-6",
+        "name": "Part 6. Look, read and colour.",
+        "skill": "READING",
+        "points": 0,
+        "isGroup": false,
+        "endIndex": 17,
+        "startIndex": 17,
+        "description": "Read the sentences and colour the pictures.",
+        "optionCount": null,
+        "instructions": "Read the sentences and colour the pictures.",
+        "questionType": "READ_AND_COLOR_OBJECTS",
+        "questionCount": 1
+    }
+]
