@@ -1,0 +1,246 @@
+[
+    {
+        "id": 1,
+        "name": "Part 1",
+        "isGroup": false,
+        "skill": "READING",
+        "points": 5,
+        "category": "READING_AND_WRITING",
+        "startIndex": 0,
+        "endIndex": 4,
+        "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+        "optionMode": "IMAGE",
+        "instructions": "Read and tick (✓).",
+        "questionCount": 5
+    },
+    {
+        "id": 2,
+        "name": "Part 2",
+        "isGroup": false,
+        "skill": "READING",
+        "points": 5,
+        "category": "READING_AND_WRITING",
+        "startIndex": 5,
+        "endIndex": 9,
+        "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+        "optionMode": "TEXT",
+        "instructions": "Read and tick (✓).",
+        "questionCount": 5
+    },
+    {
+        "id": 3,
+        "name": "Part 3",
+        "skill": "READING",
+        "group": {
+            "type": "DOCUMENT",
+            "items": [
+                {
+                    "number": 1,
+                    "questionCount": 6
+                }
+            ]
+        },
+        "points": 6,
+        "isGroup": true,
+        "category": "READING_AND_WRITING",
+        "startIndex": 10,
+        "endIndex": 15,
+        "groupConfig": [
+            "answer"
+        ],
+        "instructions": "Look and write.",
+        "questionType": "MATCH_BY_WRITING_ANSWER",
+        "questionCount": 6
+    },
+    {
+        "id": 4,
+        "name": "Part 4",
+        "isGroup": false,
+        "skill": "READING",
+        "points": 5,
+        "category": "READING_AND_WRITING",
+        "startIndex": 16,
+        "endIndex": 20,
+        "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+        "optionMode": "IMAGE",
+        "instructions": "Look and read. Tick (✓).",
+        "questionCount": 5
+    },
+    {
+        "id": 5,
+        "name": "Part 5",
+        "isGroup": false,
+        "skill": "READING",
+        "points": 5,
+        "category": "READING_AND_WRITING",
+        "startIndex": 21,
+        "endIndex": 25,
+        "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+        "optionMode": "IMAGE",
+        "instructions": "Look and read. Tick (✓).",
+        "questionCount": 5
+    },
+    {
+        "id": 6,
+        "name": "Part 6",
+        "skill": "READING",
+        "points": 5,
+        "isGroup": false,
+        "category": "READING_AND_WRITING",
+        "startIndex": 26,
+        "endIndex": 30,
+        "instructions": "Look and read. Then complete",
+        "questionType": "WORD_FILL_STRUCTURED_FORM",
+        "questionCount": 5
+    },
+    {
+        "id": 7,
+        "name": "Part 7",
+        "isGroup": false,
+        "skill": "READING",
+        "points": 5,
+        "category": "READING_AND_WRITING",
+        "startIndex": 31,
+        "endIndex": 35,
+        "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+        "optionMode": "TEXT",
+        "instructions": "Read and tick (✓).",
+        "questionCount": 5
+    },
+    {
+        "id": 8,
+        "name": "Part 8",
+        "category": "READING_AND_WRITING",
+        "skill": "READING",
+        "points": 4,
+        "isGroup": false,
+        "startIndex": 36,
+        "endIndex": 39,
+        "instructions": "Order and write.",
+        "questionType": "WORD_ORDERING",
+        "questionCount": 4
+    },
+    {
+        "id": 9,
+        "name": "Part 9",
+        "skill": "READING",
+        "points": 5,
+        "isGroup": false,
+        "category": "READING_AND_WRITING",
+        "startIndex": 40,
+        "endIndex": 44,
+        "instructions": "Look and read. Then complete",
+        "questionType": "WORD_FILL_STRUCTURED_FORM",
+        "questionCount": 5
+    },
+    {
+        "id": 10,
+        "name": "Part 10",
+        "skill": "READING",
+        "group": {
+            "type": "DOCUMENT",
+            "items": [
+                {
+                    "number": 1,
+                    "questionCount": 5
+                }
+            ]
+        },
+        "points": 5,
+        "isGroup": true,
+        "category": "READING_AND_WRITING",
+        "startIndex": 45,
+        "endIndex": 49,
+        "groupConfig": [
+            "answer",
+            "content"
+        ],
+        "instructions": "Look and write.",
+        "questionType": "MATCH_BY_WRITING_ANSWER",
+        "questionCount": 5
+    },
+    {
+        "id": 11,
+        "name": "Part 11",
+        "isGroup": false,
+        "skill": "READING",
+        "points": 5,
+        "category": "READING_AND_WRITING",
+        "startIndex": 50,
+        "endIndex": 54,
+        "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+        "optionMode": "TEXT",
+        "instructions": "Read and tick (✓).",
+        "questionCount": 5
+    },
+    {
+        "id": 12,
+        "name": "Part 12",
+        "skill": "READING",
+        "group": {
+            "type": "DOCUMENT",
+            "items": [
+                {
+                    "number": 1,
+                    "questionCount": 5
+                }
+            ]
+        },
+        "points": 5,
+        "isGroup": true,
+        "category": "READING_AND_WRITING",
+        "startIndex": 55,
+        "endIndex": 59,
+        "groupConfig": [
+            "answer",
+            "imageUrl"
+        ],
+        "instructions": "Look and write.",
+        "questionType": "MATCH_BY_WRITING_ANSWER",
+        "questionCount": 5
+    },
+    {
+        "id": 13,
+        "name": "Part 13",
+        "category": "READING_AND_WRITING",
+        "skill": "READING",
+        "points": 5,
+        "isGroup": true,
+        "group": {
+            "type": "DOCUMENT",
+            "items": [
+                {
+                    "number": 1,
+                    "questionCount": 5
+                }
+            ]
+        },
+        "startIndex": 60,
+        "endIndex": 64,
+        "instructions": "Look and read. Circle T (True) or F (False)",
+        "questionType": "TRUE_FALSE",
+        "questionCount": 5
+    },
+    {
+        "id": 14,
+        "name": "Part 14",
+        "category": "READING_AND_WRITING",
+        "skill": "READING",
+        "points": 5,
+        "isGroup": true,
+        "group": {
+            "type": "DOCUMENT",
+            "items": [
+                {
+                    "number": 1,
+                    "questionCount": 5
+                }
+            ]
+        },
+        "startIndex": 65,
+        "endIndex": 69,
+        "instructions": "Look and read. Write A (Anna) or J (Jenny)",
+        "questionType": "ANSWER_THE_QUESTION",
+        "questionCount": 5
+    }
+]
