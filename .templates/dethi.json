@@ -1,129 +1,169 @@
 {
-    "id": "451669a4-e8e9-4ac6-b234-ded7f504b4ba",
+    "id": "0b8505f8-3021-489f-acd5-8e24fa34b14b",
     "parts": [
         {
             "id": 1,
             "name": "Part 1",
-            "skill": "SPEAKING",
+            "skill": "LISTENING",
             "points": 5,
             "isGroup": false,
-            "category": "SPEAKING",
+            "audioUrl": "exams/e8fc3a15-68ce-4cfd-ae52-394e7fc7c41c/1/audio/1773744379783_fa2ed5d2_LISTENING_PARTS_1-4.mp3",
+            "category": "LISTENING",
+            "endIndex": 0,
             "startIndex": 0,
-            "endIndex": 4,
-            "instructions": "Numbers",
-            "questionType": "SPEAKING_DESCRIBE_IMAGE",
-            "questionCount": 5
+            "instructions": "Listen and drag the colours to the correct objects.",
+            "questionType": "IMAGE_OBJECT_MATCHING",
+            "questionCount": 1
         },
         {
             "id": 2,
             "name": "Part 2",
-            "skill": "SPEAKING",
+            "skill": "LISTENING",
+            "groups": [
+                {
+                    "number": 1,
+                    "questionCount": 7
+                }
+            ],
+            "groupConfig": [
+                "imageUrl"
+            ],
             "points": 5,
-            "isGroup": false,
-            "category": "SPEAKING",
-            "startIndex": 5,
-            "endIndex": 9,
-            "instructions": "Numbers",
-            "questionType": "SPEAKING_DESCRIBE_IMAGE",
-            "questionCount": 5
+            "isGroup": true,
+            "audioUrl": "exams/e8fc3a15-68ce-4cfd-ae52-394e7fc7c41c/2/audio/1773744387945_0c7de3fa_LISTENING_PARTS_1-4.mp3",
+            "category": "LISTENING",
+            "endIndex": 7,
+            "viewMode": "PICTURE_AND_QUESTIONS",
+            "startIndex": 1,
+            "exampleCount": 2,
+            "instructions": "Read the question. Listen and write a name or a number.",
+            "questionType": "ANSWER_THE_QUESTION",
+            "questionCount": 7
         },
         {
             "id": 3,
             "name": "Part 3",
-            "skill": "SPEAKING",
+            "skill": "LISTENING",
             "points": 5,
             "isGroup": false,
-            "category": "SPEAKING",
-            "startIndex": 10,
-            "endIndex": 14,
-            "instructions": "Numbers",
-            "questionType": "SPEAKING_DESCRIBE_IMAGE",
-            "questionCount": 5
+            "audioUrl": "exams/e8fc3a15-68ce-4cfd-ae52-394e7fc7c41c/3/audio/1773744396320_2907daf3_LISTENING_PARTS_1-4.mp3",
+            "category": "LISTENING",
+            "endIndex": 13,
+            "optionMode": "IMAGE",
+            "startIndex": 8,
+            "optionCount": 3,
+            "instructions": "Listen and tick (✓) the box.",
+            "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+            "questionCount": 6
         },
         {
             "id": 4,
             "name": "Part 4",
-            "skill": "SPEAKING",
+            "skill": "LISTENING",
             "points": 5,
             "isGroup": false,
-            "category": "SPEAKING",
-            "startIndex": 15,
-            "endIndex": 19,
-            "instructions": "COLOURS",
-            "questionType": "SPEAKING_DESCRIBE_IMAGE",
-            "questionCount": 5
+            "audioUrl": "exams/e8fc3a15-68ce-4cfd-ae52-394e7fc7c41c/4/audio/1773744416658_021c2981_LISTENING_PARTS_1-4.mp3",
+            "category": "LISTENING",
+            "endIndex": 14,
+            "startIndex": 14,
+            "instructions": "Listen and drag the colours to the correct objects.",
+            "questionType": "READ_AND_COLOR_OBJECTS",
+            "questionCount": 1
         },
         {
             "id": 5,
-            "name": "Part 5",
-            "skill": "SPEAKING",
+            "name": "Part 1",
+            "skill": "READING",
             "points": 5,
             "isGroup": false,
-            "category": "SPEAKING",
-            "startIndex": 20,
-            "endIndex": 24,
-            "instructions": "SHAPES",
-            "questionType": "SPEAKING_DESCRIBE_IMAGE",
-            "questionCount": 5
+            "category": "READING_AND_WRITING",
+            "endIndex": 21,
+            "startIndex": 15,
+            "instructions": "Look and read. Put a tick (✓) or a cross (✗) in the box.",
+            "questionType": "TRUE_FALSE",
+            "questionCount": 7
         },
         {
             "id": 6,
-            "name": "Part 6",
-            "skill": "SPEAKING",
+            "name": "Part 2",
+            "skill": "READING",
+            "groups": [
+                {
+                    "number": 1,
+                    "questionCount": 7
+                }
+            ],
             "points": 5,
-            "isGroup": false,
-            "category": "SPEAKING",
-            "startIndex": 25,
-            "endIndex": 29,
-            "instructions": "THE ALPHABET",
-            "questionType": "SPEAKING_DESCRIBE_IMAGE",
-            "questionCount": 5
+            "isGroup": true,
+            "category": "READING_AND_WRITING",
+            "endIndex": 28,
+            "viewMode": "PICTURE_AND_QUESTIONS",
+            "startIndex": 22,
+            "instructions": "Look and read. Write yes or no.",
+            "questionType": "ANSWER_THE_QUESTION",
+            "questionCount": 7
         },
         {
             "id": 7,
-            "name": "Part 7",
-            "skill": "SPEAKING",
+            "name": "Part 3",
+            "skill": "READING",
             "points": 5,
             "isGroup": false,
-            "category": "SPEAKING",
-            "startIndex": 30,
+            "category": "READING_AND_WRITING",
             "endIndex": 34,
-            "instructions": "THE ALPHABET",
-            "questionType": "SPEAKING_DESCRIBE_IMAGE",
-            "questionCount": 5
+            "startIndex": 29,
+            "instructions": "Look at the pictures. Look at the letters. Write the words.",
+            "questionType": "WORD_ORDERING",
+            "questionCount": 6
         },
         {
             "id": 8,
-            "name": "Part 8",
-            "skill": "SPEAKING",
-            "points": 3,
+            "name": "Part 4",
+            "skill": "READING",
+            "points": 5,
             "isGroup": false,
-            "category": "SPEAKING",
+            "category": "READING_AND_WRITING",
+            "endIndex": 35,
+            "viewMode": "WITH_WORD_BANK",
             "startIndex": 35,
-            "endIndex": 37,
-            "instructions": "ANIMALS",
-            "questionType": "SPEAKING_DESCRIBE_IMAGE",
-            "questionCount": 3
+            "instructions": "Read this. Choose a word from the box. Write the correct word next to the numbers {from}–{to}.",
+            "questionType": "WORD_FILL_PARAGRAPH",
+            "questionCount": 1
         },
         {
             "id": 9,
-            "name": "Part 9",
-            "skill": "SPEAKING",
-            "points": 3,
-            "isGroup": false,
-            "category": "SPEAKING",
-            "startIndex": 38,
-            "endIndex": 40,
-            "instructions": "FOOD AND DRINKS FOOD AND DRINK",
-            "questionType": "SPEAKING_DESCRIBE_IMAGE",
-            "questionCount": 3
+            "name": "Part 5",
+            "skill": "READING",
+            "groups": [
+                {
+                    "number": 1,
+                    "questionCount": 3
+                },
+                {
+                    "number": 2,
+                    "questionCount": 2
+                },
+                {
+                    "number": 3,
+                    "questionCount": 2
+                }
+            ],
+            "points": 5,
+            "isGroup": true,
+            "category": "READING_AND_WRITING",
+            "endIndex": 42,
+            "viewMode": "PICTURE_AND_QUESTIONS",
+            "startIndex": 36,
+            "instructions": "Look at the pictures and read the questions. Write one-word answers.",
+            "questionType": "ANSWER_THE_QUESTION",
+            "questionCount": 7
         }
     ],
-    "theme": "SUMMER_SKY",
-    "title": "PLACEMENT TEST KINDY SPEAKING",
-    "subTitle": "",
-    "examLevel": "",
+    "title": "YLE Starters",
+    "subTitle": "YLE STARTERS",
+    "examLevel": "A1",
     "totalParts": 9,
-    "description": "",
-    "totalQuestions": 41
+    "description": "Cambridge YLE Starters",
+    "examLevelId": "a3582f71-5608-42ae-a8cd-7f71055c9116",
+    "totalQuestions": 43
 }
