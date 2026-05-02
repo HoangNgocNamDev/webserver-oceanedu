@@ -130,14 +130,14 @@
         "isGroup": false,
         "endIndex": 35,
         "startIndex": 35,
-        "instructions": "Read this. Choose a word from the box. Write the correct word next to the numbers 1–5.",
+        "instructions": "Read this. Choose a word from the box. Write the correct word next to the numbers {from}–{to}.",
         "questionType": "WORD_FILL_PARAGRAPH",
         "viewMode": "WITH_WORD_BANK",
         "questionCount": 1
     },
     {
         "id": 9,
-        "name": "Part 5. Look at the pictures and read the questions. Write one-word answers.",
+        "name": "Part 5",
         "category": "READING_AND_WRITING",
         "skill": "READING",
         "points": 5,
