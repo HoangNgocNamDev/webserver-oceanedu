@@ -1,0 +1,169 @@
+[
+    {
+        "id": 1,
+        "name": "Part 1: Listen and draw lines.",
+        "category": "LISTENING",
+        "skill": "LISTENING",
+        "points": 5,
+        "isGroup": false,
+        "endIndex": 0,
+        "startIndex": 0,
+        "instructions": "Listen and draw lines.",
+        "questionType": "IMAGE_OBJECT_MATCHING",
+        "questionCount": 1,
+        "audioUrl": ""
+    },
+    {
+        "id": 2,
+        "name": "Part 2: Read the question. Listen and write a name or a number.",
+        "category": "LISTENING",
+        "skill": "LISTENING",
+        "points": 5,
+        "isGroup": true,
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 7
+            }
+        ],
+        "groupConfig": [
+            "imageUrl"
+        ],
+        "endIndex": 7,
+        "startIndex": 1,
+        "instructions": "Read the question. Listen and write a name or a number.",
+        "questionType": "ANSWER_THE_QUESTION",
+        "viewMode": "PICTURE_AND_QUESTIONS",
+        "questionCount": 7,
+        "exampleCount": 2,
+        "audioUrl": ""
+    },
+    {
+        "id": 3,
+        "name": "Part 3. Listen and tick (✓) the box.",
+        "category": "LISTENING",
+        "skill": "LISTENING",
+        "points": 5,
+        "isGroup": false,
+        "endIndex": 13,
+        "startIndex": 8,
+        "optionCount": 3,
+        "optionMode": "IMAGE",
+        "instructions": "Listen and tick (✓) the box.",
+        "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+        "questionCount": 6,
+        "questionConfig": [
+            "question",
+            "options"
+        ],
+        "audioUrl": ""
+    },
+    {
+        "id": 4,
+        "name": "Part 4: Listen and colour.",
+        "category": "LISTENING",
+        "skill": "LISTENING",
+        "points": 5,
+        "isGroup": false,
+        "endIndex": 14,
+        "startIndex": 14,
+        "instructions": "Listen and colour.",
+        "questionType": "READ_AND_COLOR_OBJECTS",
+        "questionCount": 1,
+        "audioUrl": ""
+    },
+    {
+        "id": 5,
+        "name": "Part 1. Look and read. Put a tick (✓) or a cross (✗) in the box.",
+        "category": "READING_AND_WRITING",
+        "skill": "READING",
+        "points": 5,
+        "isGroup": false,
+        "endIndex": 21,
+        "startIndex": 15,
+        "instructions": "Look and read. Put a tick (✓) or a cross (✗) in the box.",
+        "questionType": "TRUE_FALSE",
+        "questionCount": 7
+    },
+    {
+        "id": 6,
+        "name": "Part 2. Look and read. Write Yes  or No",
+        "category": "READING_AND_WRITING",
+        "skill": "READING",
+        "points": 5,
+        "isGroup": true,
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 7
+            }
+        ],
+        "groupConfig": [
+            "imageUrl"
+        ],
+        "endIndex": 28,
+        "startIndex": 22,
+        "instructions": "Read the sentences and colour the pictures.",
+        "questionType": "ANSWER_THE_QUESTION",
+        "viewMode": "PICTURE_AND_QUESTIONS",
+        "questionCount": 7
+    },
+    {
+        "id": 7,
+        "name": "Part 3. Look at the pictures. Look at the letters. Write the words.",
+        "category": "READING_AND_WRITING",
+        "skill": "READING",
+        "points": 5,
+        "isGroup": false,
+        "endIndex": 34,
+        "startIndex": 29,
+        "instructions": "Look at the pictures. Look at the letters. Write the words.",
+        "questionType": "WORD_ORDERING",
+        "questionCount": 6
+    },
+    {
+        "id": 8,
+        "name": "Part 4. Read this. Choose a word from the box. Write the correct word next to the numbers {from}–{to}.",
+        "category": "READING_AND_WRITING",
+        "skill": "READING",
+        "points": 5,
+        "isGroup": false,
+        "endIndex": 35,
+        "startIndex": 35,
+        "instructions": "Read this. Choose a word from the box. Write the correct word next to the numbers {from}–{to}.",
+        "questionType": "WORD_FILL_PARAGRAPH",
+        "viewMode": "WITH_WORD_BANK",
+        "questionCount": 1
+    },
+    {
+        "id": 9,
+        "name": "Part 5. Look at the pictures and read the questions. Write one-word answers.",
+        "category": "READING_AND_WRITING",
+        "skill": "READING",
+        "points": 5,
+        "isGroup": true,
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 3
+            },
+            {
+                "number": 2,
+                "questionCount": 2
+            },
+            {
+                "number": 3,
+                "questionCount": 2
+            }
+        ],
+        "groupConfig": [
+            "imageUrl"
+        ],
+        "endIndex": 42,
+        "startIndex": 36,
+        "instructions": "Look at the pictures and read the questions. Write one-word answers.",
+        "questionType": "ANSWER_THE_QUESTION",
+        "viewMode": "PICTURE_AND_QUESTIONS",
+        "questionCount": 7
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "name": "Part 1",
+        "category": "SPEAKING",
+        "skill": "SPEAKING",
+        "points": 9,
+        "startIndex": 0,
+        "endIndex": 8,
+        "sections": [
+            {
+                "name": "Part 1a",
+                "sectionId": 1,
+                "instructions": "Choose the correct objects in the Scene picture",
+                "isGroup": true,
+                "groups": [
+                    {
+                        "number": 1,
+                        "questionCount": 2
+                    }
+                ],
+                "startIndex": 0,
+                "endIndex": 1,
+                "questionType": "LISTEN_AND_CHOOSE_OBJECTS_IN_SCENE",
+                "questionCount": 2
+            },
+            {
+                "name": "Part 1b",
+                "sectionId": 2,
+                "instructions": "Choose the correct objects",
+                "isGroup": true,
+                "groups": [
+                    {
+                        "number": 1,
+                        "questionCount": 4
+                    }
+                ],
+                "startIndex": 2,
+                "endIndex": 5,
+                "questionType": "LISTEN_AND_CHOOSE_FROM_ANSWER_GROUP",
+                "questionCount": 4
+            },
+            {
+                "name": "Part 1c",
+                "sectionId": 3,
+                "instructions": "Drag the Objects and drop them onto the correct places in the Scene picture",
+                "isGroup": true,
+                "groups": [
+                    {
+                        "number": 1,
+                        "questionCount": 3
+                    }
+                ],
+                "startIndex": 6,
+                "endIndex": 8,
+                "questionType": "LISTEN_AND_DRAG_OBJECTS_INTO_SCENE",
+                "questionCount": 3
+            }
+        ],
+        "questionCount": 9
+    },
+    {
+        "id": 2,
+        "name": "Part 2",
+        "instructions": "Answer the questions",
+        "category": "SPEAKING",
+        "skill": "SPEAKING",
+        "points": 5,
+        "isGroup": true,
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 5
+            }
+        ],
+        "groupConfig": [
+            "backgroundImageUrl"
+        ],
+        "startIndex": 9,
+        "endIndex": 13,
+        "questionType": "LISTEN_AND_SPEAK_ANSWER",
+        "questionCount": 5
+    },
+    {
+        "id": 3,
+        "name": "Part 3",
+        "category": "SPEAKING",
+        "skill": "SPEAKING",
+        "points": 12,
+        "instructions": "Answer the questions",
+        "isGroup": true,
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 12
+            }
+        ],
+        "groupConfig": [
+            "images"
+        ],
+        "startIndex": 14,
+        "endIndex": 25,
+        "questionType": "LISTEN_AND_SPEAK_IMAGE_GROUP",
+        "questionCount": 12
+    },
+    {
+        "id": 4,
+        "name": "Part 4",
+        "category": "SPEAKING",
+        "skill": "SPEAKING",
+        "points": 3,
+        "instructions": "Answer the questions",
+        "isGroup": true,
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 3
+            }
+        ],
+        "groupConfig": [
+            "questions"
+        ],
+        "startIndex": 26,
+        "endIndex": 28,
+        "questionType": "LISTEN_AND_SPEAK_QUESTION_LIST",
+        "questionCount": 3
+    }
+]

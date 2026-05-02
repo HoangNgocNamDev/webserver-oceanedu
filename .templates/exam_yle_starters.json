@@ -1,0 +1,50 @@
+{
+    "questions": [
+        {
+            "questionType": "LISTEN_AND_CHOOSE_OBJECTS_IN_SCENE",
+            "content": {
+                "audioUrl": "exams/ff1edb6d-2e9d-493e-a9b1-a56b5b3598c7/1_Part 1a/audio/1773563167817_360ef20b_file_example_MP3_1MG.mp3",
+                "isBackup": false
+            },
+            "correctAnswer": {
+                "objectId": "obj-1773563141151"
+            },
+            "points": 2,
+            "explanation": "Giải thích 1 ",
+            "questionNumber": 1,
+            "partId": 1,
+            "partNo": 1,
+            "questionSkillType": "SPEAKING",
+            "addToQuestionBank": false,
+            "isExample": false,
+            "isGroup": true,
+            "questionGroup": {
+                "payload": {
+                    "backgroundImageUrl": "questions/scenes/images/1773563138988_df13514b_starter_p1a_background.webp",
+                    "objectNodes": [
+                        {
+                            "id": "obj-1773563141151",
+                            "imageUrl": "questions/objects/images/1773563146097_3a0fa23d_bo.png",
+                            "label": "Object1",
+                            "x": 20,
+                            "y": 30,
+                            "width": 12,
+                            "height": 15
+                        },
+                        {
+                            "id": "obj-1773563148287",
+                            "imageUrl": "questions/objects/images/1773563153752_5783be7e_meo.png",
+                            "label": "Object2",
+                            "x": 35,
+                            "y": 40,
+                            "width": 12,
+                            "height": 15
+                        }
+                    ]
+                },
+                "groupNumber": 1
+            }
+        }
+    ],
+    "examId": "ff1edb6d-2e9d-493e-a9b1-a56b5b3598c7"
+}

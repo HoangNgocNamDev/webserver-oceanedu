@@ -1,0 +1,360 @@
+[
+    {
+        "id": 1,
+        "name": "Part 1",
+        "skill": "LISTENING",
+        "isGroup": false,
+        "category": "LISTENING",
+        "endIndex": 0,
+        "startIndex": 0,
+        "instructions": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+        "questionType": "WORD_FILL_STRUCTURED_FORM",
+        "questionCount": 1
+    },
+    {
+        "id": 2,
+        "name": "Part 2",
+        "skill": "LISTENING",
+        "isGroup": false,
+        "category": "LISTENING",
+        "endIndex": 8,
+        "sections": [
+            {
+                "name": "Label the map below.",
+                "group": {
+                    "type": "MATCH_ANSWER",
+                    "items": [
+                        {
+                            "number": 1,
+                            "questionCount": 6
+                        }
+                    ],
+                    "config": [
+                        "groupTitle",
+                        "groupImageUrl",
+                        "answer"
+                    ]
+                },
+                "isGroup": true,
+                "endIndex": 6,
+                "sectionId": 1,
+                "startIndex": 1,
+                "instructions": "Write the correct letter, A–H, next to Questions 11-16.",
+                "questionType": "MATCH_BY_WRITING_ANSWER",
+                "questionCount": 6
+            },
+            {
+                "name": "Choose TWO letters, A-E.",
+                "isGroup": false,
+                "endIndex": 8,
+                "sectionId": 2,
+                "optionMode": "TEXT",
+                "startIndex": 7,
+                "optionCount": 5,
+                "instructions": "Choose TWO letters, A-E.",
+                "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+                "questionCount": 2,
+                "questionConfig": [
+                    "question",
+                    "options"
+                ],
+                "multipleAnswers": true
+            }
+        ],
+        "startIndex": 1,
+        "instructions": "",
+        "questionCount": 8
+    },
+    {
+        "id": 3,
+        "name": "Part 3",
+        "skill": "LISTENING",
+        "isGroup": false,
+        "category": "LISTENING",
+        "endIndex": 18,
+        "sections": [
+            {
+                "name": "Choose the correct letter, A, B or C.",
+                "group": {
+                    "type": "DOCUMENT",
+                    "items": [
+                        {
+                            "number": 1,
+                            "questionCount": 4
+                        }
+                    ],
+                    "config": [
+                        "title"
+                    ]
+                },
+                "isGroup": true,
+                "endIndex": 12,
+                "sectionId": 1,
+                "optionMode": "TEXT",
+                "startIndex": 9,
+                "optionCount": 3,
+                "instructions": "Choose the correct letter, A, B or C.",
+                "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+                "questionCount": 4,
+                "questionConfig": [
+                    "question",
+                    "options"
+                ]
+            },
+            {
+                "name": "Who is going to do research into each topic?",
+                "group": {
+                    "type": "MATCH_ANSWER",
+                    "items": [
+                        {
+                            "number": 1,
+                            "questionCount": 6
+                        }
+                    ],
+                    "config": [
+                        "answer",
+                        "content"
+                    ]
+                },
+                "isGroup": true,
+                "endIndex": 18,
+                "sectionId": 2,
+                "startIndex": 13,
+                "instructions": "Write the correct letter, A, B or C, next to Questions 25-30.",
+                "questionType": "MATCH_BY_WRITING_ANSWER",
+                "questionCount": 6
+            }
+        ],
+        "startIndex": 9,
+        "instructions": "",
+        "questionCount": 10
+    },
+    {
+        "id": 4,
+        "name": "Part 4",
+        "skill": "LISTENING",
+        "isGroup": false,
+        "category": "LISTENING",
+        "endIndex": 19,
+        "startIndex": 19,
+        "instructions": "Complete the form below. Write ONE WORD ONLY for each answer.",
+        "questionType": "WORD_FILL_STRUCTURED_FORM",
+        "questionCount": 1
+    },
+    {
+        "id": 5,
+        "name": "Reading Passage 1",
+        "group": {
+            "type": "DOCUMENT",
+            "items": [
+                {
+                    "number": 1,
+                    "questionCount": 7
+                }
+            ],
+            "config": [
+                "title",
+                "subtitle",
+                "content"
+            ]
+        },
+        "skill": "READING",
+        "isGroup": true,
+        "category": "READING",
+        "endIndex": 26,
+        "sections": [
+            {
+                "name": "Complete the notes below.",
+                "endIndex": 21,
+                "sectionId": 1,
+                "startIndex": 20,
+                "instructions": "Choose ONE WORD ONLY from the passage for each answer.Write your answers in boxes 1-5 on your answer sheet.",
+                "questionType": "WORD_FILL_STRUCTURED_FORM",
+                "questionCount": 2
+            },
+            {
+                "name": "TRUE/FALSE/NOT GIVEN",
+                "endIndex": 26,
+                "sectionId": 3,
+                "optionMode": "TEXT",
+                "startIndex": 22,
+                "optionCount": 3,
+                "defaultValue": [
+                    "TRUE",
+                    "FALSE",
+                    "NOT GIVEN"
+                ],
+                "instructions": "Do the following statements agree with the information given in Reading Passage 1? In boxes 9-13 on your answer sheet, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+                "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+                "questionCount": 5,
+                "questionConfig": [
+                    "question",
+                    "options"
+                ]
+            }
+        ],
+        "startIndex": 20,
+        "instructions": "You should spend about 20 minutes on Questions 1–13, which are based on Reading Passage 1 below.",
+        "questionCount": 7
+    },
+    {
+        "id": 6,
+        "name": "Reading Passage 2",
+        "group": {
+            "type": "DOCUMENT",
+            "items": [
+                {
+                    "number": 1,
+                    "questionCount": 7
+                }
+            ],
+            "config": [
+                "title",
+                "subtitle",
+                "content"
+            ]
+        },
+        "skill": "READING",
+        "isGroup": true,
+        "category": "READING",
+        "endIndex": 33,
+        "sections": [
+            {
+                "name": "TRUE/FALSE/NOT GIVEN",
+                "endIndex": 32,
+                "sectionId": 1,
+                "optionMode": "TEXT",
+                "startIndex": 27,
+                "optionCount": 3,
+                "defaultValue": [
+                    "TRUE",
+                    "FALSE",
+                    "NOT GIVEN"
+                ],
+                "instructions": "Do the following statements agree with the information given in Reading Passage 2? In boxes 14-19 on your answer sheet, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+                "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+                "questionCount": 6,
+                "questionConfig": [
+                    "question",
+                    "options"
+                ]
+            },
+            {
+                "name": "Complete the notes below.",
+                "endIndex": 33,
+                "sectionId": 2,
+                "startIndex": 33,
+                "instructions": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.Write your answers in boxes 20-26 on your answer sheet.",
+                "questionType": "WORD_FILL_STRUCTURED_FORM",
+                "questionCount": 1
+            }
+        ],
+        "startIndex": 27,
+        "instructions": "You should spend about 20 minutes on Questions 14–26, which are based on Reading Passage 2 below.",
+        "questionCount": 7
+    },
+    {
+        "id": 7,
+        "name": "Reading Passage 3",
+        "group": {
+            "type": "DOCUMENT",
+            "items": [
+                {
+                    "number": 1,
+                    "questionCount": 7
+                }
+            ],
+            "config": [
+                "title",
+                "subtitle",
+                "content"
+            ]
+        },
+        "skill": "READING",
+        "isGroup": true,
+        "category": "READING",
+        "endIndex": 43,
+        "sections": [
+            {
+                "name": "Complete the summary using the list of words, A-J, below.",
+                "endIndex": 34,
+                "viewMode": "WITH_WORD_BANK",
+                "sectionId": 1,
+                "startIndex": 34,
+                "instructions": "Write the correct letter, A-J, in boxes 27-31 on your answer sheet.",
+                "questionType": "WORD_FILL_PARAGRAPH",
+                "questionCount": 1,
+                "wordBankConfig": [
+                    "word",
+                    "content",
+                    "imageUrl"
+                ]
+            },
+            {
+                "name": "Choose the correct letter, A, B, C or D.",
+                "endIndex": 37,
+                "sectionId": 2,
+                "optionMode": "TEXT",
+                "startIndex": 35,
+                "optionCount": 4,
+                "instructions": "Choose the correct letter, A, B, C or D. Write the correct letter in boxes  32-34 on your answer sheet.",
+                "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+                "questionCount": 3,
+                "questionConfig": [
+                    "question",
+                    "options"
+                ]
+            },
+            {
+                "name": "YES/NO/NOT GIVEN",
+                "endIndex": 42,
+                "sectionId": 3,
+                "optionMode": "TEXT",
+                "startIndex": 38,
+                "optionCount": 3,
+                "defaultValue": [
+                    "YES",
+                    "NO",
+                    "NOT GIVEN"
+                ],
+                "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 3? In boxes 35-39 on your answer sheet, write YES if the statement agrees with the claims of the writer, NO if the statement contradicts the claims of the writer, NOT GIVEN if it is impossible to say what the writer thinks about this.",
+                "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+                "questionCount": 5,
+                "questionConfig": [
+                    "question",
+                    "options"
+                ]
+            },
+            {
+                "name": "Choose the correct letter, A, B, C or D.",
+                "endIndex": 43,
+                "sectionId": 4,
+                "optionMode": "TEXT",
+                "startIndex": 43,
+                "optionCount": 4,
+                "instructions": "Choose the correct letter, A, B, C or D. Write the correct letter in box 40 on your answer sheet.",
+                "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+                "questionCount": 1,
+                "questionConfig": [
+                    "question",
+                    "options"
+                ]
+            }
+        ],
+        "startIndex": 34,
+        "instructions": "You should spend about 20 minutes on Questions 27-40, which are based on Reading Passage 3 below.",
+        "questionCount": 10
+    },
+    {
+        "id": 8,
+        "name": "Writing Task 1",
+        "skill": "WRITING",
+        "isGroup": false,
+        "category": "WRITING",
+        "startIndex": 44,
+        "endIndex": 45,
+        "instructions": "You should spend about 20 minutes on this task.",
+        "questionType": "WRITE_A_SHORT_LETTER",
+        "questionCount": 2
+    }
+]

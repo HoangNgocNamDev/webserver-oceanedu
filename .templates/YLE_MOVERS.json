@@ -1,0 +1,271 @@
+[
+    {
+        "id": 1,
+        "name": "Part 1: Listen and draw lines.",
+        "category": "LISTENING",
+        "skill": "LISTENING",
+        "points": 5,
+        "isGroup": false,
+        "endIndex": 0,
+        "startIndex": 0,
+        "instructions": "Listen and draw lines.",
+        "questionType": "IMAGE_OBJECT_MATCHING",
+        "questionCount": 1,
+        "audioUrl": ""
+    },
+    {
+        "id": 2,
+        "name": "Part 2: Listen and write.",
+        "category": "LISTENING",
+        "skill": "LISTENING",
+        "points": 5,
+        "isGroup": true,
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 6
+            }
+        ],
+        "groupConfig": [
+            "title",
+            "imageUrl"
+        ],
+        "endIndex": 6,
+        "startIndex": 1,
+        "instructions": "Listen and write.",
+        "questionType": "ANSWER_THE_QUESTION",
+        "viewMode": "NOTEPAD_FORM",
+        "questionCount": 6,
+        "audioUrl": ""
+    },
+    {
+        "id": 3,
+        "name": "Part 3: Listen and write a letter in each box.",
+        "category": "LISTENING",
+        "skill": "LISTENING",
+        "points": 5,
+        "isGroup": true,
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 6
+            }
+        ],
+        "endIndex": 12,
+        "startIndex": 7,
+        "instructions": "Listen and write a letter in each box. There is one example.",
+        "questionType": "MATCH_BY_WRITING_ANSWER",
+        "questionCount": 6,
+        "audioUrl": ""
+    },
+    {
+        "id": 4,
+        "name": "Part 4. Listen and tick (✓) the box.",
+        "category": "LISTENING",
+        "skill": "LISTENING",
+        "points": 5,
+        "isGroup": false,
+        "endIndex": 18,
+        "startIndex": 13,
+        "optionCount": 3,
+        "optionMode": "IMAGE",
+        "instructions": "Listen and tick (✓) the box.",
+        "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+        "questionConfig": [
+            "question",
+            "options"
+        ],
+        "questionCount": 6,
+        "audioUrl": ""
+    },
+    {
+        "id": 5,
+        "name": "Part 5. Listen and colour and write.",
+        "category": "LISTENING",
+        "skill": "LISTENING",
+        "points": 5,
+        "isGroup": false,
+        "endIndex": 19,
+        "startIndex": 19,
+        "instructions": "Listen and colour and write.",
+        "questionType": "READ_AND_COLOR_OBJECTS",
+        "questionCount": 1,
+        "audioUrl": ""
+    },
+    {
+        "id": 6,
+        "name": "Part 1: Look and read. Choose the correct words and write them on the lines.",
+        "category": "READING_AND_WRITING",
+        "skill": "READING",
+        "points": 5,
+        "isGroup": true,
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 6
+            }
+        ],
+        "questionConfig": [
+            "question",
+            "answer"
+        ],
+        "endIndex": 25,
+        "startIndex": 20,
+        "instructions": "Look and read. Choose the correct words and write them on the lines.",
+        "questionType": "MATCH_BY_WRITING_ANSWER",
+        "questionCount": 6
+    },
+    {
+        "id": 7,
+        "name": "Part 2: Read the text and choose the best answer.",
+        "category": "READING_AND_WRITING",
+        "skill": "READING",
+        "isGroup": true,
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 7
+            }
+        ],
+        "endIndex": 32,
+        "startIndex": 26,
+        "description": "Choose the best response (A, B, C, or D) for each question.",
+        "optionCount": 3,
+        "optionMode": "TEXT",
+        "instructions": "Choose the best response (A, B, C, or D) for each question.",
+        "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+        "viewMode": "CONVERSATION",
+        "questionConfig": [
+            "question",
+            "options"
+        ],
+        "questionCount": 7
+    },
+    {
+        "id": 8,
+        "name": "Part 3: Read the story. Choose a word from the box. Write the correct word next to numbers {from}–{to}.",
+        "category": "READING_AND_WRITING",
+        "skill": "READING",
+        "points": 6,
+        "startIndex": 33,
+        "endIndex": 34,
+        "instructions": "Read the story. Choose a word from the box. Write the correct word next to numbers {from}–{to}.",
+        "sections": [
+            {
+                "name": "Read the story. Choose a word from the box. Write the correct word next to numbers {from}–{to}.",
+                "isGroup": false,
+                "startIndex": 33,
+                "endIndex": 33,
+                "questionType": "WORD_FILL_PARAGRAPH",
+                "viewMode": "WITH_WORD_BANK",
+                "questionCount": 1
+            },
+            {
+                "name": "Choose the best name for the story",
+                "isGroup": false,
+                "startIndex": 34,
+                "endIndex": 34,
+                "optionCount": 3,
+                "optionMode": "TEXT",
+                "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+                "questionConfig": [
+                    "question",
+                    "options"
+                ],
+                "questionCount": 1
+            }
+        ],
+        "questionCount": 2
+    },
+    {
+        "id": 9,
+        "name": "Part 4: Read the text. Choose the right words and write them on the lines.",
+        "category": "READING_AND_WRITING",
+        "skill": "READING",
+        "points": 6,
+        "isGroup": false,
+        "endIndex": 35,
+        "startIndex": 35,
+        "optionCount": 3,
+        "optionMode": "TEXT",
+        "instructions": "Read the text. Choose the right words and write them on the lines. There is one example.",
+        "questionType": "WORD_FILL_PARAGRAPH",
+        "viewMode": "WITH_OPTIONS",
+        "questionCount": 1
+    },
+    {
+        "id": 10,
+        "name": "Part 5: Look at the pictures and read the story. Write some words to complete the sentences about the story. You can use 1, 2 or 3 words.",
+        "category": "READING_AND_WRITING",
+        "skill": "READING",
+        "points": 6,
+        "isGroup": true,
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 4
+            },
+            {
+                "number": 2,
+                "questionCount": 3
+            },
+            {
+                "number": 3,
+                "questionCount": 2
+            }
+        ],
+        "endIndex": 44,
+        "startIndex": 36,
+        "instructions": "Look at the pictures and read the story. Write some words to complete the sentences about the story. You can use 1, 2 or 3 words.",
+        "questionType": "FILL_IN_BLANK",
+        "questionCount": 9
+    },
+    {
+        "id": 11,
+        "name": "Part 6: Look and read and write.",
+        "category": "READING_AND_WRITING",
+        "skill": "WRITING",
+        "points": 6,
+        "isGroup": true,
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 8
+            }
+        ],
+        "groupConfig": [
+            "imageUrl"
+        ],
+        "startIndex": 45,
+        "endIndex": 51,
+        "instructions": "Look and read and write.",
+        "viewMode": "PICTURE_AND_QUESTIONS",
+        "sections": [
+            {
+                "name": "Complete the sentences.",
+                "isGroup": false,
+                "startIndex": 45,
+                "endIndex": 47,
+                "questionType": "FILL_IN_BLANK",
+                "questionCount": 3
+            },
+            {
+                "name": "Answer the questions.",
+                "isGroup": false,
+                "startIndex": 48,
+                "endIndex": 50,
+                "questionType": "ANSWER_THE_QUESTION",
+                "questionCount": 3
+            },
+            {
+                "name": "Now write two sentences about the picture.",
+                "isGroup": false,
+                "startIndex": 51,
+                "endIndex": 52,
+                "questionType": "WRITE_SENTENCES",
+                "questionCount": 1
+            }
+        ],
+        "questionCount": 7
+    }
+]

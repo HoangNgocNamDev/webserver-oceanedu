@@ -1,0 +1,115 @@
+[
+    {
+        "id": 1,
+        "name": "Part 1",
+        "category": "SPEAKING",
+        "skill": "SPEAKING",
+        "points": 7,
+        "instructions": "",
+        "isGroup": true,
+        "groupConfig": [
+            "candidateImageUrl",
+            "examinerImageUrl"
+        ],
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 7
+            }
+        ],
+        "startIndex": 0,
+        "endIndex": 6,
+        "questionType": "LISTEN_AND_SPEAK_COMPARE_IMAGES",
+        "questionCount": 7
+    },
+    {
+        "id": 2,
+        "name": "Part 2",
+        "category": "SPEAKING",
+        "skill": "SPEAKING",
+        "points": 10,
+        "startIndex": 7,
+        "endIndex": 16,
+        "instructions": "",
+        "sections": [
+            {
+                "name": "Part 2a",
+                "sectionId": 1,
+                "isGroup": true,
+                "groupConfig": [
+                    "title",
+                    "imageUrl",
+                    "fields"
+                ],
+                "groups": [
+                    {
+                        "number": 1,
+                        "questionCount": 5
+                    }
+                ],
+                "startIndex": 7,
+                "endIndex": 11,
+                "questionType": "LISTEN_AND_SPEAK_INFO_EXCHANGE",
+                "questionCount": 5,
+                "viewMode": "ANSWER"
+            },
+            {
+                "name": "Part 2b",
+                "sectionId": 2,
+                "isGroup": true,
+                "groupConfig": [
+                    "title",
+                    "imageUrl",
+                    "fields"
+                ],
+                "groups": [
+                    {
+                        "number": 1,
+                        "questionCount": 5
+                    }
+                ],
+                "startIndex": 12,
+                "endIndex": 16,
+                "questionType": "LISTEN_AND_SPEAK_INFO_EXCHANGE",
+                "questionCount": 5,
+                "viewMode": "ASK"
+            }
+        ],
+        "questionCount": 10
+    },
+    {
+        "id": 3,
+        "name": "Part 3",
+        "category": "SPEAKING",
+        "skill": "SPEAKING",
+        "points": 5,
+        "instructions": "",
+        "isGroup": false,
+        "startIndex": 17,
+        "endIndex": 17,
+        "questionType": "LISTEN_AND_SPEAK_WITH_STORY_IMAGES",
+        "questionCount": 1
+    },
+    {
+        "id": 4,
+        "name": "Part 4",
+        "category": "SPEAKING",
+        "skill": "SPEAKING",
+        "points": 5,
+        "instructions": "",
+        "isGroup": true,
+        "groupConfig": [
+            "questions"
+        ],
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 5
+            }
+        ],
+        "startIndex": 18,
+        "endIndex": 22,
+        "questionType": "LISTEN_AND_SPEAK_QUESTION_LIST",
+        "questionCount": 5
+    }
+]

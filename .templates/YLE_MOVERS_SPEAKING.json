@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name": "Part 1",
+        "category": "SPEAKING",
+        "skill": "SPEAKING",
+        "points": 5,
+        "instructions": "",
+        "isGroup": true,
+        "groupConfig": [
+            "candidateImageUrl",
+            "examinerImageUrl"
+        ],
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 5
+            }
+        ],
+        "startIndex": 0,
+        "endIndex": 4,
+        "questionType": "LISTEN_AND_SPEAK_COMPARE_IMAGES",
+        "questionCount": 5
+    },
+    {
+        "id": 2,
+        "name": "Part 2",
+        "category": "SPEAKING",
+        "skill": "SPEAKING",
+        "points": 5,
+        "instructions": "",
+        "isGroup": false,
+        "startIndex": 5,
+        "endIndex": 5,
+        "questionType": "LISTEN_AND_SPEAK_WITH_STORY_IMAGES",
+        "questionCount": 1
+    },
+    {
+        "id": 3,
+        "name": "Part 3",
+        "category": "SPEAKING",
+        "skill": "SPEAKING",
+        "points": 3,
+        "instructions": "",
+        "isGroup": false,
+        "startIndex": 6,
+        "endIndex": 8,
+        "questionType": "LISTEN_AND_SPEAK_ODD_ONE_OUT",
+        "questionCount": 3
+    },
+    {
+        "id": 4,
+        "name": "Part 4",
+        "category": "SPEAKING",
+        "skill": "SPEAKING",
+        "points": 4,
+        "instructions": "",
+        "isGroup": true,
+        "groupConfig": [
+            "questions"
+        ],
+        "groups": [
+            {
+                "number": 1,
+                "questionCount": 5
+            }
+        ],
+        "startIndex": 9,
+        "endIndex": 12,
+        "questionType": "LISTEN_AND_SPEAK_QUESTION_LIST",
+        "questionCount": 4
+    }
+]
