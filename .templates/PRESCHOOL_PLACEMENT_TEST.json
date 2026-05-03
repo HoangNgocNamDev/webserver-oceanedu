@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "name": "Part 1",
+    "skill": "SPEAKING",
+    "points": 5,
+    "isGroup": false,
+    "category": "SPEAKING",
+    "startIndex": 0,
+    "endIndex": 4,
+    "instructions": "Numbers",
+    "questionType": "SPEAKING_DESCRIBE_IMAGE",
+    "questionCount": 5
+  },
+  {
+    "id": 2,
+    "name": "Part 2",
+    "skill": "SPEAKING",
+    "points": 5,
+    "isGroup": false,
+    "category": "SPEAKING",
+    "startIndex": 5,
+    "endIndex": 9,
+    "instructions": "COLOURS",
+    "questionType": "SPEAKING_DESCRIBE_IMAGE",
+    "questionCount": 5
+  },
+  {
+    "id": 3,
+    "name": "Part 3",
+    "skill": "SPEAKING",
+    "points": 4,
+    "isGroup": false,
+    "category": "SPEAKING",
+    "startIndex": 10,
+    "endIndex": 13,
+    "instructions": "SHAPES",
+    "questionType": "SPEAKING_DESCRIBE_IMAGE",
+    "questionCount": 4
+  },
+  {
+    "id": 4,
+    "name": "Part 4",
+    "skill": "SPEAKING",
+    "points": 4,
+    "isGroup": false,
+    "category": "SPEAKING",
+    "startIndex": 14,
+    "endIndex": 17,
+    "instructions": "ANIMALS",
+    "questionType": "SPEAKING_DESCRIBE_IMAGE",
+    "questionCount": 4
+  }
+]
