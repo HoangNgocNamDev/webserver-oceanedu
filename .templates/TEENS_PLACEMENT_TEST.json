@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Part 1",
+    "skill": "READING",
+    "isGroup": false,
+    "category": "READING_AND_WRITING",
+    "endIndex": 99,
+    "optionMode": "TEXT",
+    "startIndex": 0,
+    "optionCount": 4,
+    "instructions": "For each question, choose the correct answer.",
+    "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+    "questionCount": 100
+  }
+]
