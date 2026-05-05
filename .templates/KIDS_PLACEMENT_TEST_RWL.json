@@ -62,7 +62,7 @@
         "startIndex": 16,
         "endIndex": 20,
         "questionType": "CHOOSE_THE_CORRECT_ANSWER",
-        "optionMode": "IMAGE",
+        "optionMode": "TEXT",
         "instructions": "Look and read. Tick (✓).",
         "questionCount": 5
     },
