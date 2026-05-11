@@ -1,127 +1,258 @@
 {
-    "id": "743216ab-3d3b-4d03-ae7b-351d6cad0d43",
+    "id": "36bf3fa4-0ffb-4f61-986f-bbc62076d6c2",
     "parts": [
         {
             "id": 1,
             "name": "Part 1",
-            "skill": "SPEAKING",
+            "skill": "LISTENING",
+            "points": 5,
+            "isGroup": false,
+            "audioUrl": "exams/70fc9012-71f5-4e93-bc33-d8e59a0329e0/1/audio/1773809481080_0d2d9ff0_LISTENING_PARTS_1-5.mp3",
+            "category": "LISTENING",
+            "endIndex": 0,
+            "startIndex": 0,
+            "instructions": "Listen and draw lines.",
+            "questionType": "IMAGE_OBJECT_MATCHING",
+            "questionCount": 1
+        },
+        {
+            "id": 2,
+            "name": "Part 2",
+            "skill": "LISTENING",
+            "groups": [
+                {
+                    "number": 1,
+                    "questionCount": 6
+                }
+            ],
+            "points": 5,
+            "isGroup": true,
+            "audioUrl": "exams/70fc9012-71f5-4e93-bc33-d8e59a0329e0/2/audio/1773809489432_e4194963_LISTENING_PARTS_1-5.mp3",
+            "category": "LISTENING",
+            "endIndex": 6,
+            "viewMode": "NOTEPAD_FORM",
+            "startIndex": 1,
+            "instructions": "Listen and write.",
+            "questionType": "ANSWER_THE_QUESTION",
+            "questionCount": 6
+        },
+        {
+            "id": 3,
+            "name": "Part 3",
+            "skill": "LISTENING",
+            "groups": [
+                {
+                    "number": 1,
+                    "questionCount": 6
+                }
+            ],
+            "points": 5,
+            "isGroup": true,
+            "audioUrl": "exams/70fc9012-71f5-4e93-bc33-d8e59a0329e0/3/audio/1773809496823_c4677867_LISTENING_PARTS_1-5.mp3",
+            "category": "LISTENING",
+            "endIndex": 12,
+            "startIndex": 7,
+            "instructions": "Listen and write a letter in each box. There is one example.",
+            "questionType": "MATCH_BY_WRITING_ANSWER",
+            "questionCount": 6
+        },
+        {
+            "id": 4,
+            "name": "Part 4",
+            "skill": "LISTENING",
+            "points": 5,
+            "isGroup": false,
+            "audioUrl": "exams/70fc9012-71f5-4e93-bc33-d8e59a0329e0/4/audio/1773809502961_3fac5380_LISTENING_PARTS_1-5.mp3",
+            "category": "LISTENING",
+            "endIndex": 18,
+            "optionMode": "IMAGE",
+            "startIndex": 13,
+            "optionCount": 3,
+            "instructions": "Listen and tick (✓) the box.",
+            "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+            "questionCount": 6
+        },
+        {
+            "id": 5,
+            "name": "Part 5",
+            "skill": "LISTENING",
+            "points": 5,
+            "isGroup": false,
+            "audioUrl": "exams/70fc9012-71f5-4e93-bc33-d8e59a0329e0/5/audio/1773809526489_ec97abdd_LISTENING_PARTS_1-5.mp3",
+            "category": "LISTENING",
+            "endIndex": 19,
+            "startIndex": 19,
+            "instructions": "Listen and colour and write.",
+            "questionType": "READ_AND_COLOR_OBJECTS",
+            "questionCount": 1
+        },
+        {
+            "id": 6,
+            "name": "Part 1",
+            "skill": "READING",
+            "groups": [
+                {
+                    "number": 1,
+                    "questionCount": 6
+                }
+            ],
+            "points": 5,
+            "isGroup": true,
+            "category": "READING_AND_WRITING",
+            "endIndex": 25,
+            "startIndex": 20,
+            "instructions": "Look and read. Choose the correct words and write them on the lines.",
+            "questionType": "MATCH_BY_WRITING_ANSWER",
+            "questionCount": 6
+        },
+        {
+            "id": 7,
+            "name": "Part 2",
+            "skill": "READING",
             "groups": [
                 {
                     "number": 1,
                     "questionCount": 7
                 }
             ],
-            "points": 7,
             "isGroup": true,
-            "category": "SPEAKING",
-            "endIndex": 6,
-            "startIndex": 0,
-            "groupConfig": [
-                "candidateImageUrl",
-                "examinerImageUrl"
-            ],
-            "instructions": "",
-            "questionType": "LISTEN_AND_SPEAK_COMPARE_IMAGES",
+            "category": "READING_AND_WRITING",
+            "endIndex": 32,
+            "viewMode": "CONVERSATION",
+            "optionMode": "TEXT",
+            "startIndex": 26,
+            "optionCount": 3,
+            "instructions": "Choose the best response (A, B, C, or D) for each question.",
+            "questionType": "CHOOSE_THE_CORRECT_ANSWER",
             "questionCount": 7
         },
         {
-            "id": 2,
-            "name": "Part 2",
-            "skill": "SPEAKING",
-            "points": 10,
+            "id": 8,
+            "name": "Part 3",
+            "skill": "READING",
+            "points": 6,
             "isGroup": false,
-            "category": "SPEAKING",
-            "endIndex": 16,
+            "category": "READING_AND_WRITING",
+            "endIndex": 34,
             "sections": [
                 {
-                    "name": "Part 2a",
-                    "groups": [
-                        {
-                            "number": 1,
-                            "questionCount": 5
-                        }
-                    ],
-                    "isGroup": true,
-                    "endIndex": 11,
-                    "viewMode": "ANSWER",
-                    "sectionId": 1,
-                    "startIndex": 7,
-                    "groupConfig": [
-                        "title",
-                        "imageUrl",
-                        "fields"
-                    ],
-                    "questionType": "LISTEN_AND_SPEAK_INFO_EXCHANGE",
-                    "questionCount": 5
+                    "name": "Read the story. Choose a word from the box. Write the correct word next to numbers {from}–{to}.",
+                    "isGroup": false,
+                    "endIndex": 33,
+                    "viewMode": "WITH_WORD_BANK",
+                    "startIndex": 33,
+                    "questionType": "WORD_FILL_PARAGRAPH",
+                    "questionCount": 1
                 },
                 {
-                    "name": "Part 2b",
-                    "groups": [
-                        {
-                            "number": 1,
-                            "questionCount": 5
-                        }
-                    ],
-                    "isGroup": true,
-                    "endIndex": 16,
-                    "viewMode": "ASK",
-                    "sectionId": 2,
-                    "startIndex": 12,
-                    "groupConfig": [
-                        "title",
-                        "imageUrl",
-                        "fields"
-                    ],
-                    "questionType": "LISTEN_AND_SPEAK_INFO_EXCHANGE",
-                    "questionCount": 5
+                    "name": "Choose the best name for the story",
+                    "isGroup": false,
+                    "endIndex": 34,
+                    "optionMode": "TEXT",
+                    "startIndex": 34,
+                    "optionCount": 3,
+                    "questionType": "CHOOSE_THE_CORRECT_ANSWER",
+                    "questionCount": 1
                 }
             ],
-            "startIndex": 7,
-            "instructions": "",
-            "questionCount": 10
+            "startIndex": 33,
+            "instructions": "Read the story. Choose a word from the box. Write the correct word next to numbers {from}–{to}.",
+            "questionCount": 2
         },
         {
-            "id": 3,
-            "name": "Part 3",
-            "skill": "SPEAKING",
-            "points": 5,
+            "id": 9,
+            "name": "Part 4",
+            "skill": "READING",
+            "points": 6,
             "isGroup": false,
-            "category": "SPEAKING",
-            "endIndex": 17,
-            "startIndex": 17,
-            "instructions": "",
-            "questionType": "LISTEN_AND_SPEAK_WITH_STORY_IMAGES",
+            "category": "READING_AND_WRITING",
+            "endIndex": 35,
+            "viewMode": "WITH_OPTIONS",
+            "optionMode": "TEXT",
+            "startIndex": 35,
+            "optionCount": 3,
+            "instructions": "Read the text. Choose the right words and write them on the lines. There is one example.",
+            "questionType": "WORD_FILL_PARAGRAPH",
             "questionCount": 1
         },
         {
-            "id": 4,
-            "name": "Part 4",
-            "skill": "SPEAKING",
+            "id": 10,
+            "name": "Part 5",
+            "skill": "READING",
             "groups": [
                 {
                     "number": 1,
-                    "questionCount": 5
+                    "questionCount": 4
+                },
+                {
+                    "number": 2,
+                    "questionCount": 3
+                },
+                {
+                    "number": 3,
+                    "questionCount": 2
                 }
             ],
-            "points": 5,
+            "points": 6,
             "isGroup": true,
-            "category": "SPEAKING",
-            "endIndex": 22,
-            "startIndex": 18,
-            "groupConfig": [
-                "questions"
+            "category": "READING_AND_WRITING",
+            "endIndex": 44,
+            "startIndex": 36,
+            "instructions": "Look at the pictures and read the story. Write some words to complete the sentences about the story. You can use 1, 2 or 3 words.",
+            "questionType": "FILL_IN_BLANK",
+            "questionCount": 9
+        },
+        {
+            "id": 11,
+            "name": "Part 6",
+            "skill": "WRITING",
+            "groups": [
+                {
+                    "number": 1,
+                    "questionCount": 8
+                }
             ],
-            "instructions": "",
-            "questionType": "LISTEN_AND_SPEAK_QUESTION_LIST",
-            "questionCount": 5
+            "points": 6,
+            "isGroup": true,
+            "category": "READING_AND_WRITING",
+            "endIndex": 51,
+            "sections": [
+                {
+                    "name": "Complete the sentences.",
+                    "isGroup": false,
+                    "endIndex": 47,
+                    "startIndex": 45,
+                    "questionType": "FILL_IN_BLANK",
+                    "questionCount": 3
+                },
+                {
+                    "name": "Answer the questions.",
+                    "isGroup": false,
+                    "endIndex": 50,
+                    "startIndex": 48,
+                    "questionType": "ANSWER_THE_QUESTION",
+                    "questionCount": 3
+                },
+                {
+                    "name": "Now write two sentences about the picture.",
+                    "isGroup": false,
+                    "endIndex": 51,
+                    "startIndex": 51,
+                    "questionType": "WRITE_SENTENCES",
+                    "questionCount": 1
+                }
+            ],
+            "viewMode": "PICTURE_AND_QUESTIONS",
+            "startIndex": 45,
+            "instructions": "Look and read and write.",
+            "questionCount": 7
         }
     ],
-    "title": "YLE Flyers Speaking",
-    "subTitle": "YLE FLYERS SPEAKING",
-    "theme": "SUMMER_SKY",
-    "examLevel": "A2",
-    "totalParts": 4,
-    "description": "Cambridge YLE Flyers - Speaking",
-    "examLevelId": "735ebbdb-c074-4df1-9371-11fcb717e79d",
-    "totalQuestions": 23
+    "title": "YLE Movers",
+    "subTitle": "YLE MOVERS",
+    "examLevel": "A1",
+    "totalParts": 11,
+    "description": "Cambridge YLE Movers",
+    "examLevelId": "a3582f71-5608-42ae-a8cd-7f71055c9116",
+    "totalQuestions": 52
 }
