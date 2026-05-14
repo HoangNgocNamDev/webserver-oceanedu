@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Part 1: Listen and draw lines.",
+        "name": "Part 1",
         "category": "LISTENING",
         "skill": "LISTENING",
         "points": 5,
@@ -15,7 +15,7 @@
     },
     {
         "id": 2,
-        "name": "Part 2: Listen and write.",
+        "name": "Part 2",
         "category": "LISTENING",
         "skill": "LISTENING",
         "points": 5,
@@ -40,7 +40,7 @@
     },
     {
         "id": 3,
-        "name": "Part 3: Listen and write a letter in each box.",
+        "name": "Part 3",
         "category": "LISTENING",
         "skill": "LISTENING",
         "points": 5,
@@ -60,7 +60,7 @@
     },
     {
         "id": 4,
-        "name": "Part 4. Listen and tick (✓) the box.",
+        "name": "Part 4",
         "category": "LISTENING",
         "skill": "LISTENING",
         "points": 5,
@@ -80,7 +80,7 @@
     },
     {
         "id": 5,
-        "name": "Part 5. Listen and colour and write.",
+        "name": "Part 5",
         "category": "LISTENING",
         "skill": "LISTENING",
         "points": 5,
@@ -94,7 +94,7 @@
     },
     {
         "id": 6,
-        "name": "Part 1: Look and read. Choose the correct words and write them on the lines.",
+        "name": "Part 1",
         "category": "READING_AND_WRITING",
         "skill": "READING",
         "points": 5,
@@ -117,7 +117,7 @@
     },
     {
         "id": 7,
-        "name": "Part 2: Read the text and choose the best answer.",
+        "name": "Part 2",
         "category": "READING_AND_WRITING",
         "skill": "READING",
         "isGroup": true,
@@ -129,7 +129,6 @@
         ],
         "endIndex": 32,
         "startIndex": 26,
-        "description": "Choose the best response (A, B, C, or D) for each question.",
         "optionCount": 3,
         "optionMode": "TEXT",
         "instructions": "Choose the best response (A, B, C, or D) for each question.",
@@ -143,7 +142,7 @@
     },
     {
         "id": 8,
-        "name": "Part 3: Read the story. Choose a word from the box. Write the correct word next to numbers {from}–{to}.",
+        "name": "Part 3",
         "category": "READING_AND_WRITING",
         "skill": "READING",
         "points": 6,
@@ -179,7 +178,7 @@
     },
     {
         "id": 9,
-        "name": "Part 4: Read the text. Choose the right words and write them on the lines.",
+        "name": "Part 4",
         "category": "READING_AND_WRITING",
         "skill": "READING",
         "points": 6,
@@ -195,7 +194,7 @@
     },
     {
         "id": 10,
-        "name": "Part 5: Look at the pictures and read the story. Write some words to complete the sentences about the story. You can use 1, 2 or 3 words.",
+        "name": "Part 5",
         "category": "READING_AND_WRITING",
         "skill": "READING",
         "points": 6,
@@ -222,7 +221,7 @@
     },
     {
         "id": 11,
-        "name": "Part 6: Look and read and write.",
+        "name": "Part 6",
         "category": "READING_AND_WRITING",
         "skill": "WRITING",
         "points": 6,

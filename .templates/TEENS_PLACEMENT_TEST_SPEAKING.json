@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Part 1",
+        "category": "SPEAKING",
+        "skill": "SPEAKING",
+        "endIndex": 3,
+        "startIndex": 0,
+        "optionCount": null,
+        "instructions": "INTRODUCTION",
+        "questionType": "SPONTANEOUS_QA",
+        "questionCount": 4
+    },
+    {
+        "id": 2,
+        "name": "Part 2",
+        "category": "SPEAKING",
+        "skill": "SPEAKING",
+        "isGroup": false,
+        "endIndex": 6,
+        "startIndex": 4,
+        "instructions": "PICTURE DESCRIPTION",
+        "questionType": "SPEAKING_DESCRIBE_IMAGE",
+        "questionCount": 3
+    },
+    {
+        "id": 3,
+        "name": "Part 3",
+        "category": "SPEAKING",
+        "skill": "SPEAKING",
+        "endIndex": 7,
+        "startIndex": 7,
+        "optionCount": null,
+        "instructions": "INTERACTIVE COMMUNICATION",
+        "questionType": "SPEAKING_CUE_CARD",
+        "questionCount": 1
+    }
+]

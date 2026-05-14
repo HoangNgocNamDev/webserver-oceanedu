@@ -1,5 +1,5 @@
 {
-    "id": "36bf3fa4-0ffb-4f61-986f-bbc62076d6c2",
+    "id": "68dee8ac-10fd-4e24-9f75-062ef18c0580",
     "parts": [
         {
             "id": 1,
@@ -7,7 +7,7 @@
             "skill": "LISTENING",
             "points": 5,
             "isGroup": false,
-            "audioUrl": "exams/70fc9012-71f5-4e93-bc33-d8e59a0329e0/1/audio/1773809481080_0d2d9ff0_LISTENING_PARTS_1-5.mp3",
+            "audioUrl": "exams/a0676e0b-eece-46cf-a80a-872952488fcc/1/audio/1774261179467_da155665_LISTENING_PARTS_1-5.mp3",
             "category": "LISTENING",
             "endIndex": 0,
             "startIndex": 0,
@@ -27,14 +27,19 @@
             ],
             "points": 5,
             "isGroup": true,
-            "audioUrl": "exams/70fc9012-71f5-4e93-bc33-d8e59a0329e0/2/audio/1773809489432_e4194963_LISTENING_PARTS_1-5.mp3",
+            "audioUrl": "exams/a0676e0b-eece-46cf-a80a-872952488fcc/2/audio/1774261186922_be7f8c13_LISTENING_PARTS_1-5.mp3",
             "category": "LISTENING",
             "endIndex": 6,
             "viewMode": "NOTEPAD_FORM",
             "startIndex": 1,
+            "groupConfig": [
+                "title",
+                "imageUrl"
+            ],
             "instructions": "Listen and write.",
             "questionType": "ANSWER_THE_QUESTION",
-            "questionCount": 6
+            "questionCount": 6,
+            "hasSuggestedAnswers": false
         },
         {
             "id": 3,
@@ -48,10 +53,14 @@
             ],
             "points": 5,
             "isGroup": true,
-            "audioUrl": "exams/70fc9012-71f5-4e93-bc33-d8e59a0329e0/3/audio/1773809496823_c4677867_LISTENING_PARTS_1-5.mp3",
+            "audioUrl": "exams/a0676e0b-eece-46cf-a80a-872952488fcc/3/audio/1774261196148_2244d940_LISTENING_PARTS_1-5.mp3",
             "category": "LISTENING",
             "endIndex": 12,
             "startIndex": 7,
+            "groupConfig": [
+                "answer",
+                "imageUrl"
+            ],
             "instructions": "Listen and write a letter in each box. There is one example.",
             "questionType": "MATCH_BY_WRITING_ANSWER",
             "questionCount": 6
@@ -62,7 +71,7 @@
             "skill": "LISTENING",
             "points": 5,
             "isGroup": false,
-            "audioUrl": "exams/70fc9012-71f5-4e93-bc33-d8e59a0329e0/4/audio/1773809502961_3fac5380_LISTENING_PARTS_1-5.mp3",
+            "audioUrl": "exams/a0676e0b-eece-46cf-a80a-872952488fcc/4/audio/1774261206952_5d77b419_LISTENING_PARTS_1-5.mp3",
             "category": "LISTENING",
             "endIndex": 18,
             "optionMode": "IMAGE",
@@ -70,7 +79,11 @@
             "optionCount": 3,
             "instructions": "Listen and tick (✓) the box.",
             "questionType": "CHOOSE_THE_CORRECT_ANSWER",
-            "questionCount": 6
+            "questionCount": 6,
+            "questionConfig": [
+                "question",
+                "options"
+            ]
         },
         {
             "id": 5,
@@ -78,7 +91,7 @@
             "skill": "LISTENING",
             "points": 5,
             "isGroup": false,
-            "audioUrl": "exams/70fc9012-71f5-4e93-bc33-d8e59a0329e0/5/audio/1773809526489_ec97abdd_LISTENING_PARTS_1-5.mp3",
+            "audioUrl": "exams/a0676e0b-eece-46cf-a80a-872952488fcc/5/audio/1774261259032_5e88ca48_LISTENING_PARTS_1-5.mp3",
             "category": "LISTENING",
             "endIndex": 19,
             "startIndex": 19,
@@ -93,17 +106,24 @@
             "groups": [
                 {
                     "number": 1,
-                    "questionCount": 6
+                    "questionCount": 11
                 }
             ],
             "points": 5,
             "isGroup": true,
             "category": "READING_AND_WRITING",
-            "endIndex": 25,
+            "endIndex": 30,
             "startIndex": 20,
+            "groupConfig": [
+                "answer"
+            ],
             "instructions": "Look and read. Choose the correct words and write them on the lines.",
             "questionType": "MATCH_BY_WRITING_ANSWER",
-            "questionCount": 6
+            "questionCount": 11,
+            "questionConfig": [
+                "question",
+                "answer"
+            ]
         },
         {
             "id": 7,
@@ -112,19 +132,28 @@
             "groups": [
                 {
                     "number": 1,
-                    "questionCount": 7
+                    "questionCount": 6
                 }
             ],
+            "points": 5,
             "isGroup": true,
             "category": "READING_AND_WRITING",
-            "endIndex": 32,
+            "endIndex": 36,
             "viewMode": "CONVERSATION",
-            "optionMode": "TEXT",
-            "startIndex": 26,
-            "optionCount": 3,
-            "instructions": "Choose the best response (A, B, C, or D) for each question.",
-            "questionType": "CHOOSE_THE_CORRECT_ANSWER",
-            "questionCount": 7
+            "startIndex": 31,
+            "groupConfig": [
+                "answer",
+                "content",
+                "groupImageUrl"
+            ],
+            "optionCount": 8,
+            "instructions": "Read the conversation and choose the best answer. Write a letter (A–H) for each answer.",
+            "questionType": "MATCH_BY_WRITING_ANSWER",
+            "questionCount": 6,
+            "questionConfig": [
+                "question",
+                "answer"
+            ]
         },
         {
             "id": 8,
@@ -133,29 +162,33 @@
             "points": 6,
             "isGroup": false,
             "category": "READING_AND_WRITING",
-            "endIndex": 34,
+            "endIndex": 38,
             "sections": [
                 {
                     "name": "Read the story. Choose a word from the box. Write the correct word next to numbers {from}–{to}.",
                     "isGroup": false,
-                    "endIndex": 33,
+                    "endIndex": 37,
                     "viewMode": "WITH_WORD_BANK",
-                    "startIndex": 33,
+                    "startIndex": 37,
                     "questionType": "WORD_FILL_PARAGRAPH",
                     "questionCount": 1
                 },
                 {
                     "name": "Choose the best name for the story",
                     "isGroup": false,
-                    "endIndex": 34,
+                    "endIndex": 38,
                     "optionMode": "TEXT",
-                    "startIndex": 34,
+                    "startIndex": 38,
                     "optionCount": 3,
                     "questionType": "CHOOSE_THE_CORRECT_ANSWER",
-                    "questionCount": 1
+                    "questionCount": 1,
+                    "questionConfig": [
+                        "question",
+                        "options"
+                    ]
                 }
             ],
-            "startIndex": 33,
+            "startIndex": 37,
             "instructions": "Read the story. Choose a word from the box. Write the correct word next to numbers {from}–{to}.",
             "questionCount": 2
         },
@@ -166,10 +199,10 @@
             "points": 6,
             "isGroup": false,
             "category": "READING_AND_WRITING",
-            "endIndex": 35,
+            "endIndex": 39,
             "viewMode": "WITH_OPTIONS",
             "optionMode": "TEXT",
-            "startIndex": 35,
+            "startIndex": 39,
             "optionCount": 3,
             "instructions": "Read the text. Choose the right words and write them on the lines. There is one example.",
             "questionType": "WORD_FILL_PARAGRAPH",
@@ -182,77 +215,52 @@
             "groups": [
                 {
                     "number": 1,
-                    "questionCount": 4
-                },
-                {
-                    "number": 2,
-                    "questionCount": 3
-                },
-                {
-                    "number": 3,
-                    "questionCount": 2
+                    "questionCount": 9
                 }
             ],
-            "points": 6,
+            "points": 7,
             "isGroup": true,
             "category": "READING_AND_WRITING",
-            "endIndex": 44,
-            "startIndex": 36,
-            "instructions": "Look at the pictures and read the story. Write some words to complete the sentences about the story. You can use 1, 2 or 3 words.",
+            "endIndex": 48,
+            "startIndex": 40,
+            "instructions": "Look at the pictures and read the story. Write some words to complete the sentences about the story. You can use 1, 2, 3 or 4 words.",
             "questionType": "FILL_IN_BLANK",
             "questionCount": 9
         },
         {
             "id": 11,
             "name": "Part 6",
-            "skill": "WRITING",
-            "groups": [
-                {
-                    "number": 1,
-                    "questionCount": 8
-                }
-            ],
-            "points": 6,
-            "isGroup": true,
+            "skill": "READING",
+            "points": 5,
+            "isGroup": false,
             "category": "READING_AND_WRITING",
-            "endIndex": 51,
-            "sections": [
-                {
-                    "name": "Complete the sentences.",
-                    "isGroup": false,
-                    "endIndex": 47,
-                    "startIndex": 45,
-                    "questionType": "FILL_IN_BLANK",
-                    "questionCount": 3
-                },
-                {
-                    "name": "Answer the questions.",
-                    "isGroup": false,
-                    "endIndex": 50,
-                    "startIndex": 48,
-                    "questionType": "ANSWER_THE_QUESTION",
-                    "questionCount": 3
-                },
-                {
-                    "name": "Now write two sentences about the picture.",
-                    "isGroup": false,
-                    "endIndex": 51,
-                    "startIndex": 51,
-                    "questionType": "WRITE_SENTENCES",
-                    "questionCount": 1
-                }
-            ],
-            "viewMode": "PICTURE_AND_QUESTIONS",
-            "startIndex": 45,
-            "instructions": "Look and read and write.",
-            "questionCount": 7
+            "endIndex": 49,
+            "viewMode": "DEFAULT",
+            "optionMode": "TEXT",
+            "startIndex": 49,
+            "optionCount": 3,
+            "instructions": "Read the diary and write the missing words. Write one word on each line.",
+            "questionType": "WORD_FILL_PARAGRAPH",
+            "questionCount": 1
+        },
+        {
+            "id": 12,
+            "name": "Part 7",
+            "skill": "WRITING",
+            "isGroup": false,
+            "category": "READING_AND_WRITING",
+            "endIndex": 50,
+            "startIndex": 50,
+            "instructions": "",
+            "questionType": "WRITE_A_SHORT_LETTER",
+            "questionCount": 1
         }
     ],
-    "title": "YLE Movers",
-    "subTitle": "YLE MOVERS",
-    "examLevel": "A1",
-    "totalParts": 11,
-    "description": "Cambridge YLE Movers",
-    "examLevelId": "a3582f71-5608-42ae-a8cd-7f71055c9116",
-    "totalQuestions": 52
+    "title": "YLE Flyers",
+    "subTitle": "YLE FLYERS",
+    "examLevel": "A2",
+    "totalParts": 12,
+    "description": "Cambridge YLE Flyers",
+    "examLevelId": "735ebbdb-c074-4df1-9371-11fcb717e79d",
+    "totalQuestions": 51
 }
