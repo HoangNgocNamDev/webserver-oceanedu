@@ -1,42 +1,48 @@
 #!/bin/bash
-# Generate self-signed SSL certificate for *.oceanedu.local
+# Generate wildcard SSL certificate for *.oceanedu.local using mkcert
+# mkcert automatically creates a trusted certificate (no manual install needed)
 
-# Create OpenSSL config file
-cat > openssl.cnf << EOF
-[req]
-default_bits = 2048
-prompt = no
-default_md = sha256
-distinguished_name = dn
-x509_extensions = v3_req
+if ! command -v mkcert &> /dev/null && [ ! -f ./mkcert ]; then
+    echo "[ERROR] mkcert not found!"
+    echo ""
+    echo "Install mkcert:"
+    echo "  macOS:   brew install mkcert"
+    echo "  Linux:   sudo apt install mkcert (or use your package manager)"
+    echo "  Windows: winget install FiloSottile.mkcert | choco install mkcert"
+    echo ""
+    echo "  After install, run: mkcert -install"
+    echo ""
+    echo "Alternative: Use generate-ssl-openssl.sh for OpenSSL-based generation"
+    exit 1
+fi
 
-[dn]
-CN = *.oceanedu.local
+# Use local mkcert or system mkcert
+MK="mkcert"
+if [ -f ./mkcert.exe ]; then
+    MK="./mkcert.exe"
+elif [ -f ./mkcert ]; then
+    MK="./mkcert"
+fi
 
-[v3_req]
-subjectAltName = @alt_names
+# Generate wildcard certificate for *.oceanedu.local
+$MK "*.oceanedu.local" "oceanedu.local"
 
-[alt_names]
-DNS.1 = *.oceanedu.local
-DNS.2 = oceanedu.local
-EOF
-
-# Generate certificate
-openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
-    -keyout key.pem \
-    -out cert.pem \
-    -config openssl.cnf
-
-# Clean up
-rm openssl.cnf
-
-echo "SSL certificate generated successfully!"
-echo "Files created: key.pem, cert.pem"
-echo ""
-echo "To trust this certificate on Windows:"
-echo "1. Double-click cert.pem"
-echo "2. Click 'Install Certificate'"
-echo "3. Choose 'Local Machine' -> 'Next'"
-echo "4. Select 'Place all certificates in the following store'"
-echo "5. Browse and select 'Trusted Root Certification Authorities'"
-echo "6. Click 'Next' -> 'Finish'"
+if [ $? -eq 0 ]; then
+    echo ""
+    echo "============================================"
+    echo "Wildcard SSL certificate generated successfully!"
+    echo "Cover: *.oceanedu.local, oceanedu.local"
+    echo ""
+    echo "Files created in ssl/ directory:"
+    echo "  _wildcard.oceanedu.local+1.pem     (certificate)"
+    echo "  _wildcard.oceanedu.local+1-key.pem (private key)"
+    echo ""
+    echo "Update nginx.conf to use:"
+    echo "  ssl_certificate     /etc/nginx/ssl/_wildcard.oceanedu.local+1.pem;"
+    echo "  ssl_certificate_key /etc/nginx/ssl/_wildcard.oceanedu.local+1-key.pem;"
+    echo "============================================"
+else
+    echo "[ERROR] mkcert failed to generate certificate."
+    echo "Make sure 'mkcert -install' has been run first."
+    exit 1
+fi

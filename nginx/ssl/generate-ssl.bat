@@ -1,55 +1,47 @@
 @echo off
-REM Generate self-signed SSL certificate for *.oceanedu.local
+REM Generate wildcard SSL certificate for *.oceanedu.local using mkcert
+REM mkcert automatically creates a trusted certificate (no manual install needed)
 
-REM Create OpenSSL config file
-(
-echo [req]
-echo default_bits = 2048
-echo prompt = no
-echo default_md = sha256
-echo distinguished_name = dn
-echo x509_extensions = v3_req
-echo.
-echo [dn]
-echo CN = *.oceanedu.local
-echo.
-echo [v3_req]
-echo subjectAltName = @alt_names
-echo.
-echo [alt_names]
-echo DNS.1 = *.oceanedu.local
-echo DNS.2 = oceanedu.local
-) > openssl.cnf
-
-REM Generate certificate using Git Bash's OpenSSL (common on Windows)
-where openssl >nul 2>&1
-if %ERRORLEVEL% EQU 0 (
-    openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout key.pem -out cert.pem -config openssl.cnf
-) else (
-    echo OpenSSL not found in PATH.
+if not exist "%ProgramFiles%\mkcert\mkcert.exe" if not exist mkcert.exe (
+    echo [ERROR] mkcert not found!
     echo.
-    echo Option 1: Use Git Bash
-    echo   Run this in Git Bash: ./generate-ssl.sh
+    echo Install mkcert:
+    echo   1. Download from: https://github.com/FiloSottile/mkcert/releases
+    echo   2. Or use: winget install FiloSottile.mkcert
+    echo   3. Or use: choco install mkcert
+    echo   4. Then run: mkcert -install
     echo.
-    echo Option 2: Install OpenSSL
-    echo   Download from: https://slproweb.com/products/Win32OpenSSL.html
-    echo.
-    echo Option 3: Use WSL
-    echo   wsl openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout key.pem -out cert.pem -subj "/CN=*.oceanedu.local" -addext "subjectAltName=DNS:*.oceanedu.local,DNS:oceanedu.local"
-    goto :cleanup
+    echo Alternative: Use generate-ssl-openssl.bat for OpenSSL-based generation
+    goto :eof
 )
 
-echo.
-echo SSL certificate generated successfully!
-echo Files created: key.pem, cert.pem
-echo.
-echo To trust this certificate on Windows:
-echo 1. Double-click cert.pem
-echo 2. Click 'Install Certificate'
-echo 3. Choose 'Local Machine' then 'Next'
-echo 4. Select 'Place all certificates in the following store'
-echo 5. Browse and select 'Trusted Root Certification Authorities'
-echo 6. Click 'Next' then 'Finish'
+REM Check which mkcert to use
+set MK=mkcert.exe
+where mkcert >nul 2>&1
+if %ERRORLEVEL% EQU 0 (
+    set MK=mkcert
+) else if exist mkcert.exe (
+    set MK=mkcert.exe
+)
 
-:cleanup
-del openssl.cnf 2>nul
+REM Generate wildcard certificate for *.oceanedu.local
+%MK% "*.oceanedu.local" "oceanedu.local"
+
+if %ERRORLEVEL% EQU 0 (
+    echo.
+    echo ============================================
+    echo Wildcard SSL certificate generated successfully!
+    echo Cover: *.oceanedu.local, oceanedu.local
+    echo.
+    echo Files created in ssl/ directory:
+    echo   _wildcard.oceanedu.local+1.pem     (certificate^)
+    echo   _wildcard.oceanedu.local+1-key.pem (private key^)
+    echo.
+    echo Update nginx.conf to use:
+    echo   ssl_certificate     /etc/nginx/ssl/_wildcard.oceanedu.local+1.pem;
+    echo   ssl_certificate_key /etc/nginx/ssl/_wildcard.oceanedu.local+1-key.pem;
+    echo ============================================
+) else (
+    echo [ERROR] mkcert failed to generate certificate.
+    echo Make sure mkcert -install has been run first.
+)
